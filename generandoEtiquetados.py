@@ -161,7 +161,7 @@ with st.sidebar:
 
     N = st.number_input(
         "Valor de N",
-        min_value=1, max_value=6, value=2, step=1,
+        min_value=1, max_value=99, value=2, step=1,
         help="Tamaño del sistema: 2N ecuaciones, valores en {1, …, 4N}.",
     )
 
